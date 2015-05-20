@@ -1,0 +1,17 @@
+@(message: String)
+
+@main("Kalkulator") {
+
+    <!DOCTYPE html>
+<html>
+<body>
+
+<form  method="GET" action="/result">
+Type a mathematical expression:<br>
+<input type="text" name="expression" id="expression">
+</form>
+<form  method="GET" action="/stringnum">
+Type a number to get it in words:<br>
+<input type="text" name="engnum" id="engnum">
+</form>
+}
